@@ -7,17 +7,70 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
   <style>
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
     .jumbo {
-      background-image: url('https://picsum.photos/id/729/1300/310');"
-      color: 
+      background-image: url('https://picsum.photos/id/729/1300/310');
+      color: #fff;
       text-align: center;
+
     }
   </style>
 <body>
     <div class="container">
-      <div class="container-fluid py-5 text-center jumbo">
+      <div class="container-fluid p-5 mb-4 jumbo">
             <h1 class="display-1">Jumbotron</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://picsum.photos/id/684/600/400" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-primary">Its</span>
+                  <span class="badge text-bg-danger">words</span>
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis ipsum quae dignissimos, earum dolorem quo eos architecto deleniti enim reiciendis doloremque perferendis omnis et recusandae quia adipisci nobis blanditiis quis?</p>
+                </div>
+                
+                <div class="card-footer">
+                  
+                  <small class="text-body-secondary">paan</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://picsum.photos/id/614/600/400" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-primary">ilus</span>
+                  <span class="badge text-bg-danger">pilt</span>
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque vel architecto et ducimus. Assumenda eveniet quidem corporis molestias soluta voluptatibus enim inventore voluptas numquam iusto officia, iste id ea perspiciatis?</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">peeter</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="embed-responsive ">
+                  <iframe width="100%" src="https://www.youtube.com/embed/I-EgMmWtfeA?si=nar8eZBeeuCclNwd" title="YouTube video player" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-to-picture; gyroscope; web-share" class="card-img-top" allowfullscreen></iframe>
+                </div>                
+                <div class="card-body">
+                  <span class="badge text-bg-danger">Vido</span>
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur perspiciatis facilis unde nisi omnis nam esse doloremque libero consequuntur blanditiis eius, corrupti animi ducimus earum dicta commodi, sint ipsa? Pariatur.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">big</small>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
     </div>
