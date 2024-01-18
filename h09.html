@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS harjutused</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class="container">
+    <h3>Kasutajad</h3>
+    <div class="row">
+    <div class="col-sm-6">
+    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn btn-success">+ Lisa uus</button>
+    </div>
+</div>
+<div class="col-sm-6">
+    <div class="btn-group float-end" role="group" aria-label="Basic mixed styles example">
+    <input type="text" class="form-control" placeholder="Otsi kasutajat">
+    <button type="button" class="btn btn-success">Otsi</button>
+    </div>
+</div>
+</div>
+    <table class="table table-striped table-hover table-sm">
+        <thead class="table-dark">
+
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Pilt</th>
+            <th scope="col">Nimi</th>
+            <th scope="col">Email</th>
+            <th scope="col"> </th>
+            <th scope="col"> </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td><img src="https://picsum.photos/id/684/50/50" class="rounded-circle" alt=""></td>
+            <td>Heli Kopter</td>
+            <td>heli@kopter.ee</td>
+            <td><a href="#" class="btn btn-sm btn-warning">Muuda</a></td>
+            <td><a href="#" class="btn btn-sm btn-danger">Kustuta</a></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td><img src="https://picsum.photos/id/685/50/50" class="rounded-circle" alt=""></td>
+            <td>Anna Nuga</td>
+            <td>anna@nuga.com</td>
+            <td><a href="#" class="btn btn-sm btn-warning">Muuda</a></td>
+            <td><a href="#" class="btn btn-sm btn-danger">Kustuta</a></td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td><img src="https://picsum.photos/id/686/50/50" class="rounded-circle" alt=""></td>
+            <td>Imre Tard</td>
+            <td>imre@tard.eu</td>
+            <td><a href="#" class="btn btn-sm btn-warning">Muuda</a></td>
+            <td><a href="#" class="btn btn-sm btn-danger">Kustuta</a></td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td><img src="https://picsum.photos/id/687/50/50" class="rounded-circle" alt=""></td>
+            <td>Aili Bastusin</td>
+            <td>Aili@Bastusin.eu</td>
+            <td><a href="#" class="btn btn-sm btn-warning">Muuda</a></td>
+            <td><a href="#" class="btn btn-sm btn-danger">Kustuta</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" >
+        <label class="btn btn-outline-primary" for="btnradio1">Eelmine</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btnradio2">1</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btnradio3">2</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btnradio4">3</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btnradio5">Järgmine</label>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
