@@ -8,80 +8,110 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <style>
-      .bi {
-        font-size: 2rem; 
-        margin-right: 20px;
-    }
-          .breadcrumb {
-            background-color: #5a5a5a3f;
-            padding: 8px;
-            border-radius: 0.3rem;
-          }
+
+  .bi {
+    font-size: 2rem; 
+    margin-right: 20px;
+  }
+  .card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+  }
+
 </style>
 
 <body>
-    
-        <nav class="navbar navbar-expand-lg navbar bg-primary" data-bs-theme="dark">
-          <div class="container">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <i class="bi bi-rocket-takeoff"></i> LCDSP
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Avaleht</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blogi</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CV</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Kontakt</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-      <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+
+          <a class="navbar-brand" href="#">
+            <i class="bi bi-rocket-takeoff"></i> LCDSP
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Avaleht</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <div class="container">
         <div class="container-fluid">
           <div class="content">
             <div class="main-column">
               <div class="row">
-                <div class="col-sm-9">
+                <div class="col-sm-8 as">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
+                    <ol class="breadcrumb p-3 bg-body-secondary mt-3 rounded-2">
                         <li class="breadcrumb-item"><a href="#">Blogi</a></li>
                         <li class="breadcrumb-item"><a href="#">Veebitehnoloogia</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Sinupostitus</li>
                     </ol>
+                    <h1>Sinu Postitus</h1>
+                    <p>Autor: <a href="#">Sinu nimi</a></p>
+                    <small>18.01.2024 <span class="badge text-bg-danger">css</span> <span class="badge bg-warning text-dark">bootstrap</span></small>
+
+                    <img src="https://picsum.photos/id/684/1200/600" alt="" class="rounded-2 card-img-top">
+                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, sunt sequi. Aut fuga impedit veritatis minima. Nam soluta, ullam totam quisquam mollitia veritatis earum rerum odio voluptates, placeat pariatur odit.</class></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis dolor molestiae consectetur perferendis unde, eum amet quas esse omnis tempora dicta nemo ea dolorem rem quo eveniet eius consequatur vitae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, provident nobis voluptatibus perspiciatis libero laboriosam ipsa optio animi quasi, est aspernatur ratione! Esse fugiat libero eos eum maiores explicabo dolorem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, provident nobis voluptatibus perspiciatis libero laboriosam ipsa optio animi quasi, est aspernatur ratione! Esse fugiat libero eos eum maiores explicabo dolorem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, provident nobis voluptatibus perspiciatis libero laboriosam ipsa optio animi quasi, est aspernatur ratione! Esse fugiat libero eos eum maiores explicabo dolorem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, provident nobis voluptatibus perspiciatis libero laboriosam ipsa optio animi quasi, est aspernatur ratione! Esse fugiat libero eos eum maiores explicabo dolorem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, provident nobis voluptatibus perspiciatis libero laboriosam ipsa optio animi quasi, est aspernatur ratione! Esse fugiat libero eos eum maiores explicabo dolorem.</p>
+
                   </div>
                 </nav>
-                <div class="col-sm-3">
+                <div class="col-sm-4 p-3">
                 <div class="sidebar-column">
                   <div class="card">
-                      <div class="card-body">
-                          <h5 class="card-title">Kategooriad</h5>
+                    <h5 class="card-header"> Kategooriad</h5>
+
+                      <div class="card-body text-primary">
+                          
                           <ul class="list-unstyled">
-                              <li>Üks</li>
-                              <li>Kaks</li>
-                              <li>Kolm</li>
-                              <li>Neli</li>
+                            <div class="row">
+                            <div class="col-md-6">
+                              <li>HTML</li>
+                              <li>CSS</li>
+                              <li>Bootstrap</li>
+                            </div>
+                            <div class="col-md-6"> 
+                              <li>JavaScript</li>
+                              <li>PHP</li>
+                              <li>MySQL</li>
+                            </div>
+                            </div>
+                             
+                         
                           </ul>
+                        </div>
                       </div>
+                  
                   </div>
-          
-                  <div class="card">
+                  <div class="card mt-3">
+                    <h5 class="card-header">Muu info</h5>
+
                       <div class="card-body">
-                          <h5 class="card-title">Muu info</h5>
                           <div class="row">
-                              <div class="col-md-6">Sisu 1</div>
-                              <div class="col-md-6">Sisu 2</div>
+                              <div class="col-md-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci blanditiis perspiciatis dolores id maiores, atque aut minus et quia debitis quae labore temporibus eum beatae ratione earum illum doloremque ab?
+
+                              </div>
+
                           </div>
                       </div>
                   </div>
